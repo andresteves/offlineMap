@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
         mapController.setCenter(startPoint);
 
         roadManager = new OSRMRoadManager(this);
-        
+
 
         updateEstimate(true);
         addPins();
